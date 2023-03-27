@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    margin: 46px 140px 79px 67px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+}
+.main {
+    margin-right: 23px;
+}
+img {
+    width: 568px;
+    height: 500px;
+    margin: 103px 89px 135px 155px;
+    display: inline-block;
+}
+.login {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #665AE1;
+    height: 41px;
+    width: 130px;
+    border-radius: 20px;
+    border: transparent;
+}
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    height: 87px;
+    width: 515px;
+
+}
+button {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+
+}
+section {
+    display: inline-block;
+    margin: 157px 131px 123px 95px;
+    position: absolute;
+}
+
+@media screen and (max-width: 750px) {
+
+    div {
+        width: 100px;
+        height: 100px;
+    }
+    
+    img {
+        width: 354px;
+        height: 317px;
+        display: block;
+        margin: 115px 21px 15px 19px;
+    }
+    header {
+        display: none;
+    }
+    section {
+        margin: 25px 45px  15px 78px;
+        display: block;
+
+    }
+    p {
+        display: none;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        width: 263px;
+        height: 52px;
+        margin: 14px 0 12px 12px;
+    }
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        width: 232px;
+        height: 37px;
+        margin-left: 23px;
+        margin-bottom: 14px;
+    }
+    button {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+        background: #ADFF00;
+        border-radius: 20.5px;
+        height: 64px;
+        width: 239px;
+        border-radius: 40px;
+        margin-left: 20px;
+        border: none;
+    }
+}
